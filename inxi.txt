@@ -1,0 +1,38 @@
+System:    Host: manoj Kernel: 5.13.19-2-MANJARO x86_64 bits: 64 compiler: gcc v: 11.1.0 Desktop: GNOME 40.5
+           Distro: Manjaro Linux base: Arch Linux
+Machine:   Type: Laptop System: LENOVO product: 20T1S5W102 v: ThinkPad T14s Gen 1 serial: <superuser required>
+           Mobo: LENOVO model: 20T1S5W102 v: SDK0J40697 WIN serial: <superuser required> UEFI: LENOVO v: N2YET31W (1.20 )
+           date: 08/17/2021
+Battery:   ID-1: BAT0 charge: 27.2 Wh (47.9%) condition: 56.8/57.0 Wh (99.6%) volts: 11.4 min: 11.5 model: SMP 5B10W13910
+           status: Discharging
+CPU:       Info: Quad Core model: Intel Core i7-10610U bits: 64 type: MT MCP arch: Kaby Lake note: check rev: C cache:
+           L2: 8 MiB
+           flags: avx avx2 lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx bogomips: 36812
+           Speed: 700 MHz min/max: 400/4900 MHz Core speeds (MHz): 1: 700 2: 1205 3: 700 4: 700 5: 700 6: 700 7: 700 8: 700
+Graphics:  Device-1: Intel CometLake-U GT2 [UHD Graphics] vendor: Lenovo driver: i915 v: kernel bus-ID: 00:02.0
+           Device-2: IMC Networks Integrated Camera type: USB driver: uvcvideo bus-ID: 1-8:4
+           Display: wayland server: X.org 1.20.13 compositor: gnome-shell driver: loaded: i915
+           note: n/a (using device driver) - try sudo/root resolution: <missing: xdpyinfo>
+           OpenGL: renderer: Mesa Intel UHD Graphics (CML GT2) v: 4.6 Mesa 21.2.3 direct render: Yes
+Audio:     Device-1: Intel Comet Lake PCH-LP cAVS vendor: Lenovo driver: snd_hda_intel v: kernel bus-ID: 00:1f.3
+           Sound Server-1: ALSA v: k5.13.19-2-MANJARO running: yes
+           Sound Server-2: JACK v: 1.9.19 running: no
+           Sound Server-3: PulseAudio v: 15.0 running: yes
+           Sound Server-4: PipeWire v: 0.3.38 running: yes
+Network:   Device-1: Intel Comet Lake PCH-LP CNVi WiFi driver: iwlwifi v: kernel bus-ID: 00:14.3
+           IF: wlp0s20f3 state: up mac: 28:d0:ea:5c:51:d9
+           Device-2: Intel Ethernet I219-LM vendor: Lenovo driver: e1000e v: kernel port: N/A bus-ID: 00:1f.6
+           IF: enp0s31f6 state: down mac: 38:f3:ab:44:d6:32
+Bluetooth: Device-1: Intel AX201 Bluetooth type: USB driver: btusb v: 0.8 bus-ID: 1-10:5
+           Report: rfkill ID: hci0 rfk-id: 2 state: up address: see --recommends
+Drives:    Local Storage: total: 238.47 GiB used: 115.49 GiB (48.4%)
+           ID-1: /dev/nvme0n1 vendor: Samsung model: MZVLB256HAHQ-000H1 size: 238.47 GiB temp: 32.9 C
+Partition: ID-1: / size: 54.02 GiB used: 11.29 GiB (20.9%) fs: btrfs dev: /dev/nvme0n1p8
+           ID-2: /boot/efi size: 476 MiB used: 568 KiB (0.1%) fs: vfat dev: /dev/nvme0n1p6
+           ID-3: /home size: 54.02 GiB used: 11.29 GiB (20.9%) fs: btrfs dev: /dev/nvme0n1p8
+           ID-4: /var/log size: 54.02 GiB used: 11.29 GiB (20.9%) fs: btrfs dev: /dev/nvme0n1p8
+Swap:      ID-1: swap-1 type: partition size: 4.4 GiB used: 2.2 MiB (0.0%) dev: /dev/nvme0n1p7
+Sensors:   System Temperatures: cpu: 43.0 C mobo: N/A
+           Fan Speeds (RPM): fan-1: 0
+Info:      Processes: 322 Uptime: 4h 53m Memory: 15.27 GiB used: 3.82 GiB (25.0%) Init: systemd Compilers: gcc: N/A
+           Packages: 1152 Shell: Zsh v: 5.8 inxi: 3.3.08
